@@ -1,0 +1,1229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MazeFactory" Collapsed="true">
+    <Position X="11" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAABAAAAAAAAAAABAAAAAAIAAAAAAAAAAAgAA=</HashCode>
+      <FileName>abfactory.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnchantedMazeFactory" Collapsed="true">
+    <Position X="8.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAgAA=</HashCode>
+      <FileName>abfactory.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shape" Collapsed="true">
+    <Position X="24.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>adapter.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextView" Collapsed="true">
+    <Position X="21.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAIAAAAAAAQgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>adapter.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextShape" Collapsed="true">
+    <Position X="21.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABICAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>adapter.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Manipulator" Collapsed="true">
+    <Position X="0.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>adapter.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextManipulator" Collapsed="true">
+    <Position X="0.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>adapter.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Body" Collapsed="true">
+    <Position X="29" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bridge.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Handle" Collapsed="true">
+    <Position X="30.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAEAA=</HashCode>
+      <FileName>bridge.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="View" Collapsed="true">
+    <Position X="32.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>bridge.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowSystemFactory" Collapsed="true">
+    <Position X="36" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAA=</HashCode>
+      <FileName>bridge.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Window" Collapsed="true">
+    <Position X="23.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAABAAIYAJAAAABAAAQAAQAAAIQEADCACAAIA=</HashCode>
+      <FileName>bridge.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowImp" Collapsed="true">
+    <Position X="1.75" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAASAAAAAQgEAAAAAAAAAAAAAAAAAAAIAAAQAAAAAA=</HashCode>
+      <FileName>bridge.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ApplicationWindow" Collapsed="true">
+    <Position X="22.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bridge.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IconWindow" Collapsed="true">
+    <Position X="24.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bridge.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XWindowImp" Collapsed="true">
+    <Position X="0.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAkAAAAAEAABAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>bridge.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PMWindowImp" Collapsed="true">
+    <Position X="2.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgEAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bridge.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MazeBuilder" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAIAAAAAAAAAAAIAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>builder.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StandardMazeBuilder" Collapsed="true">
+    <Position X="15.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACIIAAAAAAAAAAAIAAAAAAAABAAAAABA=</HashCode>
+      <FileName>builder.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CountingMazeBuilder" Collapsed="true">
+    <Position X="18" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAACAAAAAAAAAIIAAAAEgAAAAABAAAAAAA=</HashCode>
+      <FileName>builder.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpHandler" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>chain.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Request" Collapsed="true">
+    <Position X="19.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>chain.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpRequest" Collapsed="true">
+    <Position X="20.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>chain.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrintRequest" Collapsed="true">
+    <Position X="18.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>chain.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Handler" Collapsed="true">
+    <Position X="23.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAEAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>chain.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtendedHandler" Collapsed="true">
+    <Position X="23.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>chain.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Widget" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>chain.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Button" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>chain.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dialog" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>chain.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Application" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>chain.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Document" Collapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAIAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>command.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command" Collapsed="true">
+    <Position X="16" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAABAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenCommand" Collapsed="true">
+    <Position X="15" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEACQAAAAAABAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PasteCommand" Collapsed="true">
+    <Position X="17.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAEAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>command.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleCommand&lt;Receiver&gt;" Collapsed="true">
+    <Position X="19.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>command.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyClass" Collapsed="true">
+    <Position X="36" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>command.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MacroCommand" Collapsed="true">
+    <Position X="12.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAQAAAAABAAAAAAAAAAAAAQAABAAAAI=</HashCode>
+      <FileName>command.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Component" Collapsed="true">
+    <Position X="22.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>composite.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Composite" Collapsed="true">
+    <Position X="21.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>composite.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Leaf" Collapsed="true">
+    <Position X="23.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>composite.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Equipment" Collapsed="true">
+    <Position X="17.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAIAAAAAAAAAACAAAABAQAAgAACAABACAAAAAAAAA=</HashCode>
+      <FileName>composite.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FloppyDisk" Collapsed="true">
+    <Position X="12.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAAAAAAAAAAAAAAAAgAACAABAAAAAAAAAAA=</HashCode>
+      <FileName>composite.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeEquipment" Collapsed="true">
+    <Position X="17.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAABAAAAAAAACAAAABAAAAgAAGAABQAAAAAAAAAA=</HashCode>
+      <FileName>composite.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chassis" Collapsed="true">
+    <Position X="15" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAgAAiAABAAAAAAAAAAA=</HashCode>
+      <FileName>composite.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cabinet" Collapsed="true">
+    <Position X="17.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>composite.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bus" Collapsed="true">
+    <Position X="19.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>composite.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Card" Collapsed="true">
+    <Position X="21.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>composite.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualComponent" Collapsed="true">
+    <Position X="19" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAMAAAA=</HashCode>
+      <FileName>decorator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decorator" Collapsed="true">
+    <Position X="17.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACgAAAAAAAAAAAAAAABAAAAAAAAEAAAA=</HashCode>
+      <FileName>decorator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BorderDecorator" Collapsed="true">
+    <Position X="16.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAIAAAAgAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>decorator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScrollDecorator" Collapsed="true">
+    <Position X="19" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>decorator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stream" Collapsed="true">
+    <Position X="3" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>decorator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StreamDecorator" Collapsed="true">
+    <Position X="0.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>decorator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompressingStream" Collapsed="true">
+    <Position X="0.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>decorator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASCII7Stream" Collapsed="true">
+    <Position X="3" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>decorator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileStream" Collapsed="true">
+    <Position X="5.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>decorator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scanner" Collapsed="true">
+    <Position X="37.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABAAAAAAAAAAAAAABAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>facade.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Parser" Collapsed="true">
+    <Position X="29" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>facade.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProgramNodeBuilder" Collapsed="true">
+    <Position X="32.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAQEAAAAEgA=</HashCode>
+      <FileName>facade.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProgramNode" Collapsed="true">
+    <Position X="20.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAAAAAAAABAAABAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>facade.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeGenerator" Collapsed="true">
+    <Position X="17.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAABAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>facade.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExpressionNode" Collapsed="true">
+    <Position X="20.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIYAIAAAAAAAAAAAAAABAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>facade.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compiler" Collapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>facade.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RISCCodeGenerator" Collapsed="true">
+    <Position X="17.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>facade.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Product" Collapsed="true">
+    <Position X="11" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>factorymeth.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyProduct" Collapsed="true">
+    <Position X="8.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>factorymeth.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YourProduct" Collapsed="true">
+    <Position X="11" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>factorymeth.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheirProduct" Collapsed="true">
+    <Position X="13.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>factorymeth.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Creator" Collapsed="true">
+    <Position X="14.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>factorymeth.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyCreator" Collapsed="true">
+    <Position X="13.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>factorymeth.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StandardCreator&lt;TheProduct&gt;" Collapsed="true">
+    <Position X="15.75" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>factorymeth.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MazeGame" Collapsed="true">
+    <Position X="22.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAABAAAABAAAACAIAAAAAAAAAAAggA=</HashCode>
+      <FileName>C++\MazeGame.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BombedMazeGame" Collapsed="true">
+    <Position X="21.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAgAA=</HashCode>
+      <FileName>C++\maze.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnchantedMazeGame" Collapsed="true">
+    <Position X="23.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAgAA=</HashCode>
+      <FileName>C++\maze.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Font" Collapsed="true">
+    <Position X="37.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>flyweight.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph" Collapsed="true">
+    <Position X="14.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAGAAAAAAAwAAEACABACAAAgAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>flyweight.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character" Collapsed="true">
+    <Position X="14.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>flyweight.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlyphContext" Collapsed="true">
+    <Position X="27.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAkAAIAAAAAAAAAAgAACAAAiAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>flyweight.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Row" Collapsed="true">
+    <Position X="36" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>flyweight.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Column" Collapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>flyweight.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlyphFactory" Collapsed="true">
+    <Position X="29" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAEAAAAAAAAAAWAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>flyweight.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BooleanExp" Collapsed="true">
+    <Position X="5.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAgAAAAgAAAgAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>interpreter.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Context" Collapsed="true">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>interpreter.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VariableExp" Collapsed="true">
+    <Position X="0.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAQAAAEAAAAAAAAAgAAAgAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>interpreter.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AndExp" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAgAIEAAAAAAAAAEAACA=</HashCode>
+      <FileName>interpreter.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Constant" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAgAAAgAAAAgAAAAAAAAAACA=</HashCode>
+      <FileName>interpreter.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrExp" Collapsed="true">
+    <Position X="7.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAgAAAgAIAAAAAAAAAQAAACA=</HashCode>
+      <FileName>interpreter.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotExp" Collapsed="true">
+    <Position X="9.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAgAAAgAIAAAAAAAAACAAACA=</HashCode>
+      <FileName>interpreter.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="List&lt;Item&gt;" Collapsed="true">
+    <Position X="11.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAgAQBAwAAABAQAAACYAQAAIAAiAAAACAI=</HashCode>
+      <FileName>C++\Foundation.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Iterator&lt;Item&gt;" Collapsed="true">
+    <Position X="9.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C++\Foundation.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListIterator&lt;Item&gt;" Collapsed="true">
+    <Position X="8.5" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAQAQAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C++\Foundation.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReverseListIterator&lt;Item&gt;" Collapsed="true">
+    <Position X="10.75" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAAAAAAAAAABAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>iterator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Employee" Collapsed="true">
+    <Position X="34.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>iterator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkipList&lt;Item&gt;" Collapsed="true">
+    <Position X="11.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>iterator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkipListIterator&lt;Item&gt;" Collapsed="true">
+    <Position X="8.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAAAQAAAAgAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>iterator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractList&lt;Item&gt;" Collapsed="true">
+    <Position X="27.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>iterator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IteratorPtr&lt;Item&gt;" Collapsed="true">
+    <Position X="29" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAgAAAAAAAAAAAAggAAAgAAA=</HashCode>
+      <FileName>iterator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListTraverser&lt;Item&gt;" Collapsed="true">
+    <Position X="8.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAIAAAAAAAAAAAAAAAAEABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>iterator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrintNEmployees" Collapsed="true">
+    <Position X="8.5" Y="25.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAIBAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>iterator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilteringListTraverser&lt;Item&gt;" Collapsed="true">
+    <Position X="36" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAIAAAAAAEAAAAAAAAAEABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>iterator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MazePrototypeFactory" Collapsed="true">
+    <Position X="11" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACABAAQAAAAAAAABBAAAAAIAAAAAAAABCAgAA=</HashCode>
+      <FileName>C++\maze.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnchantedMazeBuilder" Collapsed="true">
+    <Position X="20.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAACAwAAAAAAAAAAAAAAAAAAAABAAAAABA=</HashCode>
+      <FileName>C++\maze.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TwistyTurnyPassage" Collapsed="true">
+    <Position X="0.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C++\maze.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogDirector" Collapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAABAEEAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>mediator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ListBox" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAABAAAAIAAA=</HashCode>
+      <FileName>mediator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntryField" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAIAIAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>mediator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FontDialogDirector" Collapsed="true">
+    <Position X="24.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAgAAAgAAAAAAABAAAAgAAEAAAAAAAQAAAAAA=</HashCode>
+      <FileName>mediator.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Originator" Collapsed="true">
+    <Position X="27.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACQAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>memento.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Memento" Collapsed="true">
+    <Position X="32.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABUAAAAAAAAAAAAAACAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>memento.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graphic" Collapsed="true">
+    <Position X="5.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>memento.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveCommand" Collapsed="true">
+    <Position X="34.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAQAAAAECAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>memento.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstraintSolver" Collapsed="true">
+    <Position X="37.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAQAIAAAAAAABQQAAAAAAAAA=</HashCode>
+      <FileName>memento.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConstraintSolverMemento" Collapsed="true">
+    <Position X="27.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>memento.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collection&lt;Item&gt;" Collapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAQAQAAAAAAABAAAAgBAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>memento.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ItemType" Collapsed="true">
+    <Position X="37.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>memento.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IterationState" Collapsed="true">
+    <Position X="27.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>memento.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseClassSubject" Collapsed="true">
+    <Position X="23.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>observer.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MySubject" Collapsed="true">
+    <Position X="23.5" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAACAAAAA=</HashCode>
+      <FileName>observer.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Text" Collapsed="true">
+    <Position X="29" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAA=</HashCode>
+      <FileName>observer.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer" Collapsed="true">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>observer.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Subject" Collapsed="true">
+    <Position X="23.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAIAAIAAAAAAAIAAAABAAAAAAAQAAAA=</HashCode>
+      <FileName>observer.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClockTimer" Collapsed="true">
+    <Position X="23.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA4AA=</HashCode>
+      <FileName>observer.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalClock" Collapsed="true">
+    <Position X="6.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAgAAAAAAAAgAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>observer.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnalogClock" Collapsed="true">
+    <Position X="3.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>observer.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Door" Collapsed="true">
+    <Position X="9.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAQAAAAAAAAAEAAAEAgAAAAAAAgAAABA=</HashCode>
+      <FileName>C++\MazeParts.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BombedWall" Collapsed="true">
+    <Position X="7.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAEAAAABAAAAAEAAAAAAAAAAAAABA=</HashCode>
+      <FileName>C++\MazeParts.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Image" Collapsed="true">
+    <Position X="32.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>proxy.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImagePtr" Collapsed="true">
+    <Position X="34.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAQAAAAQAgQAAAAAw=</HashCode>
+      <FileName>proxy.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageProxy" Collapsed="true">
+    <Position X="5.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAIAAQgQAAAAAAAAQCQAARAAAAAAAAAAAAAA=</HashCode>
+      <FileName>proxy.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextDocument" Collapsed="true">
+    <Position X="30.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>proxy.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Singleton" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAEAQAAAAAAAAAA=</HashCode>
+      <FileName>singleton.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MySingleton" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>singleton.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCPConnection" Collapsed="true">
+    <Position X="27.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAIAABAAAAEAACABAAAAAAAAAIBAAQACAAAA=</HashCode>
+      <FileName>state.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCPState" Collapsed="true">
+    <Position X="4.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAEAAAABAAAAAAAAAIBAARACAAAA=</HashCode>
+      <FileName>state.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCPEstablished" Collapsed="true">
+    <Position X="3.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABACAAAA=</HashCode>
+      <FileName>state.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCPListen" Collapsed="true">
+    <Position X="5.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>state.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Composition" Collapsed="true">
+    <Position X="36" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAgAAAAAAAAAAAAAACAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>strategy.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Compositor" Collapsed="true">
+    <Position X="3" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>strategy.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Context&lt;AStrategy&gt;" Collapsed="true">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>strategy.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyStrategy" Collapsed="true">
+    <Position X="37.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>strategy.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleCompositor" Collapsed="true">
+    <Position X="0.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>strategy.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeXCompositor" Collapsed="true">
+    <Position X="3" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>strategy.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArrayCompositor" Collapsed="true">
+    <Position X="5.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>strategy.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visitor" Collapsed="true">
+    <Position X="34.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>visitor.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Element" Collapsed="true">
+    <Position X="15" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>visitor.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElementA" Collapsed="true">
+    <Position X="12.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>visitor.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElementB" Collapsed="true">
+    <Position X="15" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>visitor.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeElement" Collapsed="true">
+    <Position X="17.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>visitor.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inventory" Collapsed="true">
+    <Position X="36" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>visitor.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EquipmentVisitor" Collapsed="true">
+    <Position X="17.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAEAAAAAACAAAABAAgAAAAAAAAQAAA=</HashCode>
+      <FileName>visitor.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PricingVisitor" Collapsed="true">
+    <Position X="16.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAEAAEAAAAAACAAAABAAgAAAAAAABAAAA=</HashCode>
+      <FileName>visitor.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InventoryVisitor" Collapsed="true">
+    <Position X="18.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAAAAAEAAAAAACAAAABAAiAAAAAAAAAAAA=</HashCode>
+      <FileName>visitor.Cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point" Collapsed="true">
+    <Position X="30.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAQAAAQAAAAAAAAAgAAAAYAA=</HashCode>
+      <FileName>C++\Foundation.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rect" Collapsed="true">
+    <Position X="34.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAAAAABAAAAAAAAAAQAEAAASAIAAAACAAAAAgQIAA=</HashCode>
+      <FileName>C++\Foundation.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BombedMazeFactory" Collapsed="true">
+    <Position X="13.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAoAA=</HashCode>
+      <FileName>C++\MazeFactories.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapSite" Collapsed="true">
+    <Position X="5.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C++\MazeParts.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room" Collapsed="true">
+    <Position X="3" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAACAABAIQAAAAAAEAAAACAAAAAAAABA=</HashCode>
+      <FileName>C++\MazeParts.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wall" Collapsed="true">
+    <Position X="7.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAAABA=</HashCode>
+      <FileName>C++\MazeParts.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Maze" Collapsed="true">
+    <Position X="30.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAEAAAAAAAAAAAAAAAAAAIAABA=</HashCode>
+      <FileName>C++\MazeParts.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RoomWithABomb" Collapsed="true">
+    <Position X="3" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>C++\MazeParts.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnchantedRoom" Collapsed="true">
+    <Position X="5.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAABABAAAAAA=</HashCode>
+      <FileName>C++\MazeParts.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoorNeedingSpell" Collapsed="true">
+    <Position X="9.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C++\MazeParts.H</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="XXX" Collapsed="true">
+    <Position X="4.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>bridge.Cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PPOINTL" Collapsed="true">
+    <Position X="27.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>bridge.Cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="Drawable" Collapsed="true">
+    <Position X="30.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bridge.Cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GC" Collapsed="true">
+    <Position X="4.5" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bridge.Cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HPS" Collapsed="true">
+    <Position X="32.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bridge.Cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Topic" Collapsed="true">
+    <Position X="27.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>chain.Cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Watt" Collapsed="true">
+    <Position X="29" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>composite.Cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Currency" Collapsed="true">
+    <Position X="29" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>composite.Cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Power" Collapsed="true">
+    <Position X="34.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>composite.Cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ProductId" Collapsed="true">
+    <Position X="36" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>factorymeth.Cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TextRange" Collapsed="true">
+    <Position X="37.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>observer.Cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Coord" Collapsed="true">
+    <Position X="27.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C++\defs.H</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="Direction" Collapsed="true">
+    <Position X="27.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAABAAQ=</HashCode>
+      <FileName>C++\MazeParts.H</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.5" />
+</ClassDiagram>
